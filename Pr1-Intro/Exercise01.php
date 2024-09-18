@@ -18,4 +18,4 @@ echo "División: $num1 / $num2 = $division<br>";
 
 if ($num1 == $num2) {
     echo "";
-}
+} 
