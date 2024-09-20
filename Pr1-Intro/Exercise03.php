@@ -39,11 +39,11 @@ echo"-------------------------------------------------------------<br>";
 echo"4-<br>";
 echo "Progresión numérica desde $var1 hasta $var2:<br>";
 if ($var1 > $var2) {
-    $contador = $var1;
+    $progresion = $var1;
     do {
-        echo $contador . " ";
-        $contador--;
-    } while ($contador >= $var2);
+        echo $progresion . " ";
+        $progresion--;
+    } while ($progresion >= $var2);
 } else {
     // Si la segunda variable es más pequeña, sólo imprime el valor de la primera variable una vez
     echo $var1 . "<br>";
