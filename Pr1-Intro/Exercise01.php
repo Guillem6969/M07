@@ -1,19 +1,19 @@
 <?php
 
 // 1 ->
-// Creamos las variables numéricas
+// Creamos las variables
 $num1 = 10;
 $num2 = 5;
 
-// Realizar las operaciones
+// Creamos las variables que guardaran las operaciones
 $suma = $num1 + $num2;
 $resta = $num1 - $num2;
 $division = $num1 / $num2;
     
-// Mostrar los valores de las variables y los resultados
-echo "Valor de num1: $num1<br>";
+// Mostramos todas nuestras variables
+echo "Valor del numero 1: $num1<br>";
 echo "-----------------------<br>";
-echo "Valor de num2: $num2<br>";
+echo "Valor del numero 2: $num2<br>";
 echo "-----------------------<br>";
 echo "Suma: $num1 + $num2 = $suma<br>";
 echo "-----------------------<br>";
@@ -24,7 +24,7 @@ echo "-----------------------<br>";
 
 
 //  2 ->
-// Muestra cuál es mayor, cuál menor o si son iguales. 
+// Mostramos cual es mayor y cual es menor o si son iguales. 
 
 if ($suma < $resta && $suma < $division) {
     echo "La suma ($suma) es el menor resultado.<br>";
