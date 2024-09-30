@@ -50,4 +50,11 @@ echo"EJERCICIO 5<br>";
 // Crear un nuevo array con un valor separado por coma a parƟr de la cadena de texto
 // $letters = “a,b,c,d,e,f”. Usando la función explode. Muestra su
 // información en orden descendente
+$letters = "a,b,c,d,e,f";
+$arrayLetters = explode(",", $letters);
 
+for ( $y = count($arrayLetters); $y > 0; $y-- ){
+    echo "letter $y º: ". $arrayLetters[$y - 1] ." <br>";
+}
+    
+    
