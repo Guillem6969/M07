@@ -52,9 +52,18 @@ echo"EJERCICIO 5<br>";
 // información en orden descendente
 $letters = "a,b,c,d,e,f";
 $arrayLetters = explode(",", $letters);
-
 for ( $y = count($arrayLetters); $y > 0; $y-- ){
     echo "letter $y º: ". $arrayLetters[$y - 1] ." <br>";
 }
     
+echo"<br>";
+echo"<br>";
+echo"-------------------------------------------------------------<br>";
+echo"<br>";
+echo"EJERCICIO 6<br>";
+// 6) Un profesor quiere registrar las notas de su clase en un array asociaƟvo. Las notas son
+// las siguientes:
+// Miguel: 5, Luís: 7, Marta: 10, Isabel: 8, Aitor: 4, Pepe: 1
+// Guarda los datos en un array asociaƟvo en el orden previo y muéstralos ordenados de
+// mayor a menor
     

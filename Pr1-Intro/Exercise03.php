@@ -15,6 +15,11 @@ echo"-------------------------------------------------------------<br>";
 $var1 = 14; 
 $var2 = 11;
 
+echo"El primer numero es: $var1";
+echo "<br><br>";
+echo"El segundo numero es: $var2";
+echo "<br><br>";
+echo"-------------------------------------------------------------<br>";
 // 2. Muestra la progresión numérica de los números pares desde 0 hasta el valor de la primera variable (var1)
 echo"2-<br>";
 echo "Progresión de números pares desde 0 hasta $var1:<br>";
