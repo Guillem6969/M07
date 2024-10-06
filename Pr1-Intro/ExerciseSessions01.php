@@ -14,11 +14,12 @@
             <p>Worker name:<input type="text" name="nombre" id=""></p>
             <br>
         <h2>Choose Product:</h2>
-    
+s
             <select name="" id="">
                 <option value="">MILK</option>
                 <option value="" >SOFT DRINK</option>
             </select>
+
             <br>
             <br>
         <h2>Product quantity:</h2>
