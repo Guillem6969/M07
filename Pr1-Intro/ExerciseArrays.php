@@ -66,4 +66,63 @@ echo"EJERCICIO 6<br>";
 // Miguel: 5, Luís: 7, Marta: 10, Isabel: 8, Aitor: 4, Pepe: 1
 // Guarda los datos en un array asociaƟvo en el orden previo y muéstralos ordenados de
 // mayor a menor
-    
+$notas = [
+    "Miguel" => 5,
+    "Luís" => 7,
+    "Marta" => 10,
+    "Isabel" => 8,
+    "Aitor" => 4,
+    "Pepe" => 1
+];
+arsort($notas);
+echo "Notas de los estudiantes:";
+foreach ($notas as $estudiante => $nota) {
+    echo " $estudiante : $nota ";
+}
+
+
+echo"<br>";
+echo"<br>";
+echo"-------------------------------------------------------------<br>";
+echo"<br>";
+echo"EJERCICIO 7<br>";
+// Calcula la media de las notas y muéstrala con solo 2 decimales. Además, muestra los
+// nombres de los alumnos cuya nota esté por encima de la media. ç
+
+$suma_notas = array_sum($notas); 
+$numero_estudiantes = count($notas); 
+$media = $suma_notas / $numero_estudiantes;
+
+
+echo "Media de las notas: ". number_format($media, 2)."<br>";
+
+echo "Alumnos con nota por encima de la media: <br>";
+foreach ($notas as $estudiante => $nota) {
+    if ($nota > $media) {
+        echo "$estudiante <br>";
+    }
+}
+
+echo"<br>";
+echo"<br>";
+echo"-------------------------------------------------------------<br>";
+echo"<br>";
+echo"EJERCICIO 8<br>";
+
+// Busca en el array la nota más alta (debe hacerse mediante código). Muestra la nota y
+// el nombre del mejor alumno de la clase. Deberá funcionar para cualquier valor del
+// array
+
+
+$nota_mas_alta = max($notas); 
+
+
+$mejor_alumno = array_search($nota_mas_alta, $notas); 
+
+echo "La nota mas alta es: $nota_mas_alta y el mejor alumno es: $mejor_alumno.";
+
+echo"<br>";
+echo"<br>";
+echo"-------------------------------------------------------------<br>";
+echo"<br>";
+
