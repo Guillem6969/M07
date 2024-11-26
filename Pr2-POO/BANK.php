@@ -89,3 +89,5 @@ $second_account_status = "closed";
 echo "My account is now ". $second_account_status .".<br>";
 
 echo "Error: Account is already closed.";
+
+//HARCODE
